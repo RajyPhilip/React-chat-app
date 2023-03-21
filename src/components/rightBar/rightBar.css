@@ -1,0 +1,106 @@
+.right {
+    width: 100%;
+    margin-left: 2px;
+    padding: 16px;
+    background-color: #fff;
+    position: relative;
+}
+.right .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #908e8e;
+}
+.right .nav img {
+    height: 40px;
+    width: 40px;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+.right .msg {
+    display: flex;
+    justify-content: center;
+}
+.right .msg .send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 60vw;
+    border-radius: 2rem;
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+}
+.right .msg .send input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.right .msg .send input:focus {
+    background-color: #e6e6e6;
+}
+.right .msg .send button {
+    padding: 10px;
+    height: 100%;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #0091ff;
+}
+.right .msg .send button:hover {
+    background-color: rgba(0, 55, 255, 0.805);
+}
+.right .chats {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 85%;
+    overflow: scroll;
+    color: gray;
+    gap: 2px;
+}
+.right .chats img {
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+}
+.right .chats .rightChat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+}
+.right .chats .rightChat h4 {
+    background-color: #00a6ff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.right .chats .leftChat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.right .chats .leftChat h4 {
+    background-color: #39b493;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.right .poem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    gap: 20px;
+}
+.right .poem h3 {
+    width: 50%;
+}

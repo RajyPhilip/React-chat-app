@@ -1,0 +1,114 @@
+.left-sec {
+    background-color: #fff;
+    width: 30%;
+    max-width: 320px;
+    min-width: 200px;
+    position: relative;
+    overflow: scroll;
+}
+.left-sec .fixed {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 20px 10px 10px 10px;
+}
+.left-sec .fixed .user {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.056);
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.left-sec .fixed .user img {
+    height: 50px;
+    width: 50px;
+    border-radius: 2rem;
+    border: 2px solid white;
+    margin: 10px;
+}
+.left-sec .fixed .user h2 {
+    color: #020a10;
+    margin-left-sec: 4px;
+}
+.left-sec .fixed .searchInput {
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+}
+.left-sec .fixed .addCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 12px;
+}
+.left-sec .fixed .addCon p {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #252424;
+}
+.left-sec .fixed .addCon button {
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: #4a4a4a;
+}
+.left-sec .fixed .addCon button:hover {
+    background-color: #ededed;
+}
+.left-sec .fixed .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-sec .fixed .search input {
+    width: 100%;
+    outline: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.left-sec .fixed .search button {
+    padding: 2px 10px;
+}
+.left-sec .contactList {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    gap: 20px;
+}
+.left-sec .contactList .contact {
+    display: flex;
+    gap: 18px;
+}
+.left-sec .contactList .contact img {
+    width: 50px;
+    height: 50px;
+    border-radius: 2rem;
+}
+.left-sec .contactList .contact .contactText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left-sec .contactList .contact .contactText p {
+    color: gray;
+    font-size: 14px;
+}
+.left-sec .contactList .contact .contactText .name {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
